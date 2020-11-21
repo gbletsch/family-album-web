@@ -1,0 +1,77 @@
+/* .card > * {
+  box-sizing: border-box;
+}
+
+.card-container {
+  margin: 10px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.card-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card__image {
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+.card__content {
+  padding: 2px 5px;
+}
+
+.card__content__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__content__header__p {
+  font-size: 0.8rem;
+}
+
+.card__content__p {
+  font-size: 1rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.like-btn,
+.comment-btn {
+  width: 70px;
+  height: 30px;
+  border-radius: 6px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.like-btn {
+  border: 1px solid red;
+  color: red;
+}
+
+.like-btn button {
+  color: red;
+}
+
+.comment-btn {
+  border: 1px solid blue;
+  color: blue;
+}
+
+.comment-btn button {
+  color: blue;
+}
+
+.card-footer__btn {
+  border: 0;
+  background-color: var(--main-bg-color);
+} */
