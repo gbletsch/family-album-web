@@ -28,7 +28,6 @@ const Main = () => {
     <h1>ops... connection error...</h1>;
   return (
     <main className="main-container">
-      <h2>Posts recentes</h2>
       {posts.sort(compareValues("createdAt", "desc")).map((post) => (
         <Article key={post.id} post={post} />
       ))}
