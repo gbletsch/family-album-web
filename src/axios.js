@@ -3,7 +3,7 @@ import { TOKEN_KEY } from "./utils/constants";
 
 const token = localStorage.getItem(TOKEN_KEY);
 const instance = axios.create({
-  baseURL: "http://localhost:8080",
+  baseURL: "https://family-album-server.herokuapp.com/",
   headers: {
     authorization: `Bearer ${token}`,
   },

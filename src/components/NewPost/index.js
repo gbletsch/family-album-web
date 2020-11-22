@@ -1,4 +1,3 @@
-import { addQuarters } from "date-fns";
 import { useState } from "react";
 import { FiPaperclip, FiSend } from "react-icons/fi";
 
@@ -72,6 +71,7 @@ const NewPost = () => {
           </label>
           <input
             className="hidden"
+            accept="image/*"
             id="file-upload"
             type="file"
             name="file"
